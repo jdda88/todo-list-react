@@ -1,12 +1,67 @@
+#app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.todo-item {
+  display: flex;
+  width: 100%;
+  margin-block: 5px;
+  /* top and bottom margin */
+  align-items: center;
+}
+.todo-delete {
+  margin-left: auto;
+  background: none;
+  border: none;
+}
 
-/* 
+.todo-checkbox {
+  margin-right: 5px;
+}
+.todo-ul {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 400px;
+  padding: 10px;
+  min-height: 400px;
+}
+.todo-input {
+  padding: 3px 12px;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.todo-label {
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    margin-bottom: 0;
+}
+.todo-footer{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 
-*/
+}
+.todo-items-left {
+    margin-bottom: 0;
+
+}
+.todo-undo, .todo-clear {
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 7px 20px;
+ 
+
+}
+
